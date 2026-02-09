@@ -3,7 +3,7 @@ cask "shellguard" do
   name "shellguard"
   desc "MCP server for read-only shell access over SSH"
   homepage "https://github.com/jonchun/shellguard"
-  version "0.2.0"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "shellguard" do
   on_macos do
     on_intel do
       url "https://github.com/jonchun/shellguard/releases/download/v#{version}/shellguard_darwin_amd64.tar.gz"
-      sha256 "5b1b5696af05a9b3df88a54b97a3c7db112c624b6b74c069df74e41081b95944"
+      sha256 "e5245b510829daa9bc72cea9e9792abbadf7e584e8320573721061b6e2273397"
     end
     on_arm do
       url "https://github.com/jonchun/shellguard/releases/download/v#{version}/shellguard_darwin_arm64.tar.gz"
-      sha256 "0231db5838b39e0cf7f87bc7a59a29efd21ba1712ad5dbd2c1b18fd0d1d5991d"
+      sha256 "64d213f1c731140d8865bba859095ca2aa0b3bd84e7e209fa41877f135800c66"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/jonchun/shellguard/releases/download/v#{version}/shellguard_linux_amd64.tar.gz"
-      sha256 "17238d8a485b73058d3f159f6eb7e2d3374f95d2a1108879d1238991a58a274e"
+      sha256 "2da5bd5e89bbede5ee167a04aae07270a93804f7b95e11418d093594cb6e4dd8"
     end
     on_arm do
       url "https://github.com/jonchun/shellguard/releases/download/v#{version}/shellguard_linux_arm64.tar.gz"
-      sha256 "3ec06175b4dde63c244b1f72a95ec83813af2343e3f3264005a3f693feb766d1"
+      sha256 "c16cb077ea4a6950734c97a3d0298a2ac21f0d8c5a734c9afd735a55a5035094"
     end
   end
 
