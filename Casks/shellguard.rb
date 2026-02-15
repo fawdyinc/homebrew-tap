@@ -2,8 +2,8 @@
 cask "shellguard" do
   name "shellguard"
   desc "MCP server for read-only shell access over SSH"
-  homepage "https://github.com/jonchun/shellguard"
-  version "0.4.0"
+  homepage "https://github.com/fawdyinc/shellguard"
+  version "0.5.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,23 +13,23 @@ cask "shellguard" do
 
   on_macos do
     on_intel do
-      url "https://github.com/jonchun/shellguard/releases/download/v#{version}/shellguard_darwin_amd64.tar.gz"
-      sha256 "370ab6f86931de9c83c5533f0b5b9bd00c729d5eeeec9134091e15d551704377"
+      url "https://github.com/fawdyinc/shellguard/releases/download/v#{version}/shellguard_darwin_amd64.tar.gz"
+      sha256 "886da570e5eaf0f9c60fe7d5c4f4a82374fca2d5a11399a9acb34f3ef78a5d79"
     end
     on_arm do
-      url "https://github.com/jonchun/shellguard/releases/download/v#{version}/shellguard_darwin_arm64.tar.gz"
-      sha256 "c62f1ffb09c44f846464c34219762ff7c4577319383881e63f6aee866046dc09"
+      url "https://github.com/fawdyinc/shellguard/releases/download/v#{version}/shellguard_darwin_arm64.tar.gz"
+      sha256 "b8783ad2822010f61d8193b2fa5a4231f55a8e69170b866ce19cf68012914a98"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/jonchun/shellguard/releases/download/v#{version}/shellguard_linux_amd64.tar.gz"
-      sha256 "ebab05dc996a77b82f659549d35eaa427a5b92639f34f09a6e98fa2454e77cf2"
+      url "https://github.com/fawdyinc/shellguard/releases/download/v#{version}/shellguard_linux_amd64.tar.gz"
+      sha256 "efa80aa28d19e4cb15e0adbcd45767a6a46d222e7a16ce813b08b1994b470502"
     end
     on_arm do
-      url "https://github.com/jonchun/shellguard/releases/download/v#{version}/shellguard_linux_arm64.tar.gz"
-      sha256 "ab8b86a94a47a1af66ce5c89e83b1a975bc6cb9195017f760f08dafdf9928cd9"
+      url "https://github.com/fawdyinc/shellguard/releases/download/v#{version}/shellguard_linux_arm64.tar.gz"
+      sha256 "e367da331f3c419c31056debf0076fe40c58229e5f8232385c8c82fc3114bba6"
     end
   end
 
