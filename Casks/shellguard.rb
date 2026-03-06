@@ -3,7 +3,7 @@ cask "shellguard" do
   name "shellguard"
   desc "MCP server for read-only shell access over SSH"
   homepage "https://github.com/fawdyinc/shellguard"
-  version "0.5.2"
+  version "0.6.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "shellguard" do
   on_macos do
     on_intel do
       url "https://github.com/fawdyinc/shellguard/releases/download/v#{version}/shellguard_darwin_amd64.tar.gz"
-      sha256 "886da570e5eaf0f9c60fe7d5c4f4a82374fca2d5a11399a9acb34f3ef78a5d79"
+      sha256 "9239550e55fd5192e18b058cb11e9c2e361c27d71e1177d6a1a274af2a1ff473"
     end
     on_arm do
       url "https://github.com/fawdyinc/shellguard/releases/download/v#{version}/shellguard_darwin_arm64.tar.gz"
-      sha256 "b8783ad2822010f61d8193b2fa5a4231f55a8e69170b866ce19cf68012914a98"
+      sha256 "5e0ce841586613be54e3d10709391dbb053c3ede504b261b2eda8914ed40d973"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/fawdyinc/shellguard/releases/download/v#{version}/shellguard_linux_amd64.tar.gz"
-      sha256 "efa80aa28d19e4cb15e0adbcd45767a6a46d222e7a16ce813b08b1994b470502"
+      sha256 "9b3a7c24187c546a178e87b7c1a1978db4a2db119d3dd38025736cab4b6f3cf7"
     end
     on_arm do
       url "https://github.com/fawdyinc/shellguard/releases/download/v#{version}/shellguard_linux_arm64.tar.gz"
-      sha256 "e367da331f3c419c31056debf0076fe40c58229e5f8232385c8c82fc3114bba6"
+      sha256 "b4007a226093231255d0ea792f0e4947662b009510d54d312c209b3c09ef7670"
     end
   end
 
